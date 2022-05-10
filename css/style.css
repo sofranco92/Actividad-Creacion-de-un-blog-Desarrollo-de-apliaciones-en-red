@@ -1,0 +1,99 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: rgba(166, 197, 255, 0.26);
+}
+
+body {
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    margin: 5px;
+}
+
+header {
+    height: 75px;
+    background: #FF6633;
+    border-radius: 10px;
+    border: 1px solid #eb521f;
+    margin: 5px;
+    padding: 0px 20px;
+}
+
+header nav {
+    height: 40px;
+    background: #FFCC33;
+    border-radius: 10px;
+    border: 1px solid #ebb81f;
+    margin: auto;
+}
+
+header nav a {
+    float:right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: #eb521f;
+    border-radius: 10px;
+    border: 1px solid #ebb81f;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 5px;
+    margin-top: 50px;
+    padding: 0px 20px;
+    border: 1px solid #1feb52;
+    padding: 5px;
+    border-radius: 10px;
+    display: table;
+}
+
+main section {
+    padding: 5px;
+    width: 75%;
+    float: left;
+}
+
+main aside {
+    width: 20%;
+    float: right;
+    padding: 5px;
+}
+
+main section article {
+    padding: 5px;
+    display: table;
+}
+
+main section article p {
+    float: left;
+    width: 70%;
+}
+
+main section article img {
+    float: right;
+    width: 20%;
+    position: absolute;
+    margin: 0px auto;
+}
+
+footer {
+    height: 20px;
+    background: #33FF66;
+    border-radius: 10px;
+    border: 1px solid #1feb52;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
